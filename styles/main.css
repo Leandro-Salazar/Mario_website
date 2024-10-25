@@ -1,0 +1,65 @@
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    
+
+}
+
+.main_info {
+    width: 100%;
+    max-width: 570px;
+ 
+   
+}
+
+.main_info p {
+    font-size: 18px;
+    margin: 20px 0 28px;
+}
+
+.main_info div a {
+
+    width: 100%;
+    padding: 10px 60px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    background-color: red;
+    transition: all .5s ease;
+
+}
+
+.main_info div a:hover {
+    background-color: #fff;
+    color: var(--red);
+    
+}
+
+.main_info div button {
+
+   
+    font-size: 16px;
+    padding: 10px 60px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid var(--green);
+    opacity: 0.5;
+    text-transform: uppercase;
+    transition: all .5s ease;
+  
+}
+
+.main_info div button:hover {
+    opacity: 1;
+    background-color: var(--green);
+}
+
+
+
